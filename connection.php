@@ -11,11 +11,12 @@ error_reporting(0);
 DEFINE ('DB_USER', 'root');
 DEFINE ('DB_PASSWORD', '');
 DEFINE ('DB_HOST', 'localhost');
-DEFINE ('DB_NAME', 'cmscpetcatalog');
+DEFINE ('DB_NAME', 'pet_adoption');
 
-// $dbc will contain a resource link to the database
+// $conn will contain a resource link to the database
 // @ keeps the error from showing in the browser
 
-$dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
-OR die("<b>Aw snap! </b>something went wrong.".mysqli_connect_error());
+$conn = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
+
 ?>
