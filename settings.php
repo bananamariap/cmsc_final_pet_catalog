@@ -7,6 +7,7 @@
 				<li><a href="pet_breed_type_add.php">Add Pet Breed Type</a></li>
 				<li><a href="pet_breed_type_view.php">View Pet Breed Type</a></li>
 				<li><a href="pet_breed_add.php">Add Pet Breed</a></li>
+				<li><a href="pet_breed_view.php">View Pet Breed</a></li>
 			</ul>
 		</div>
 		
