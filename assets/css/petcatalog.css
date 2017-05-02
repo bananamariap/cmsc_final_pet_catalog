@@ -173,8 +173,13 @@ input[type="text"]{
 
 }
 
+/* buttons */
 input[type="submit"]{
 
+}
+
+textarea{
+  
 }
 
 div.msg-success{
